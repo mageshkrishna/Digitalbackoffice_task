@@ -57,7 +57,7 @@ const Availableshifts = () => {
        
       }}>
       <Tab.Screen name="Helsinki" component={Helsinki}  options={{ tabBarLabel: `Helsinki(${cityShiftCounts.Helsinki})` }} />
-      <Tab.Screen name="Tampere" component={Tampere} options={{ tabBarLabel: `Helsinki(${cityShiftCounts.Tampere})` }} />
+      <Tab.Screen name="Tampere" component={Tampere} options={{ tabBarLabel: `Tampere(${cityShiftCounts.Tampere})` }} />
       <Tab.Screen name="Turku" component={Turku} options={{ tabBarLabel: `Turku(${cityShiftCounts.Turku})` }} />
     </Tab.Navigator>
   )
