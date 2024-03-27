@@ -9,9 +9,7 @@ After that go to constants file change the ipaddress into your ipaddress
 run the start command  npx expo start
 
 use emulator or your own device or install expo go for android
-preview of the project
-{https://github.com/mageshkrishna/Digitalbackoffice_task/blob/master/Myshift.jpg}
-{https://github.com/mageshkrishna/Digitalbackoffice_task/blob/master/Availableshifts.jpg}
+
 # backend
 and also use the backend that I given that most of the packages are outdated and i updated it and changed the post function to get function (https://github.com/mageshkrishna/digitalbackoffice_backend)
 
