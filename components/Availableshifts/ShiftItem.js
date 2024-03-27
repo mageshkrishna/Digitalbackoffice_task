@@ -15,9 +15,7 @@ const ShiftItem = ({ shift, reloadData }) => {
   };
  
   const handleBook = async () => {
-    console.log(shift.id);
-
-    console.log("worked");
+   
     try {
      setloading(true);
       const response = await fetch(
@@ -31,7 +29,7 @@ const ShiftItem = ({ shift, reloadData }) => {
       );
      handleSetCounter();
    
-      console.log(response);
+    
       setloading(false)
       reloadData();
     } catch (error) {
@@ -41,9 +39,7 @@ const ShiftItem = ({ shift, reloadData }) => {
   };
 
   const handleCancel = async () => {
-    console.log(shift.id);
 
-    console.log("worked cancel");
     try {
       setloading(true)
       // Make a POST request to cancel the shift
@@ -57,7 +53,7 @@ const ShiftItem = ({ shift, reloadData }) => {
         }
       );
       handleSetCounter()
-      console.log(response);
+    
       reloadData();
       setloading(false)
     } catch (error) {

@@ -18,7 +18,7 @@ const Helsinki = () => {
         return response.json();
       })
       .then(data => {
-       console.log("helsinki")
+     
         const shiftsGroupedByDate = {};
         data.forEach(shift => {
           const date = new Date(shift.startTime);

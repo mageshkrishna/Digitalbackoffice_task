@@ -16,9 +16,7 @@ const Bookeditem = ({ shift, reloadData }) => {
  
 
   const handleCancel = async () => {
-    console.log(shift.id);
-
-    console.log("worked cancel");
+   
     try {
       setloading(true)
    

@@ -45,7 +45,7 @@ const Availableshifts = () => {
         headerShown: false ,
         tabBarShowLabel: true,
         tabBarLabelStyle: {
-          fontSize: 15, 
+          fontSize: 13, 
         },
         tabBarStyle:{
             
