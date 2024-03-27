@@ -1,6 +1,6 @@
 # Setup for running the app
  # frontend
-download the code and run npx expo install 
+download the code and run npm install 
 
 After that go to constants file change the ipaddress into your ipaddress 
 
